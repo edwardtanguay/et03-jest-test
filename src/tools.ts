@@ -6,7 +6,7 @@
  * '[primary]'
  */
 export const surround = (text: string, twoLetters: string) => {
-	if (twoLetters.length != 2) {
+	if (twoLetters.length != 3) {
 		return text;
 	} else {
 		const first = twoLetters[0];
